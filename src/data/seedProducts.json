@@ -1,0 +1,7 @@
+[
+  { "id": "p1", "name": "Idly Batter", "category": "ready_to_eat", "price": 80, "tags": ["breakfast","south_indian"] },
+  { "id": "p2", "name": "Dosa Batter", "category": "ready_to_eat", "price": 95, "tags": ["breakfast","south_indian"] },
+  { "id": "p3", "name": "Coconut Chutney", "category": "condiments", "price": 45, "tags": ["sauce","south_indian"] },
+  { "id": "p4", "name": "Rasam Powder", "category": "spices", "price": 120, "tags": ["spices"] },
+  { "id": "p5", "name": "Cornflakes", "category": "breakfast", "price": 180, "tags": ["breakfast","cereal"] }
+]

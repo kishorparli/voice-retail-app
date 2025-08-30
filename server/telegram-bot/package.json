@@ -1,0 +1,10 @@
+{
+  "name": "retail-telegram-bot",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "firebase": "^10.13.1",
+    "dotenv": "^16.4.5"
+  }
+}
