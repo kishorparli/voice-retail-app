@@ -1,10 +1,9 @@
-# Voice-Enabled Retail App
+Retail App
 
-A complete React Native (Expo) app with voice search, AI-powered NLU, Firebase backend, and optional Telegram bot integration.
+A complete React Native (Expo) app with search, AI-powered NLU, Firebase backend, and optional Telegram bot integration.
 
 ## Features
 
-- 🎤 **Real Voice Recognition** - Native speech-to-text with multi-language support
 - 🤖 **Multi-Provider AI** - OpenAI, Anthropic, Cohere, Gemini with smart fallback
 - 🛒 Shopping cart with checkout
 - 📦 Order tracking with premium glassmorphism UI
@@ -55,19 +54,6 @@ npm run seed
 npm start
 ```
 
-## 🎤 Voice Recognition Setup
-
-### For Development Build (Real Voice)
-
-To enable actual voice recognition, you need a development build:
-
-```bash
-# Create development build
-npx expo run:android
-# or
-npx expo run:ios
-```
-
 ### Permissions Required
 
 The app automatically requests microphone permissions:
@@ -75,17 +61,7 @@ The app automatically requests microphone permissions:
 - **iOS**: `NSMicrophoneUsageDescription` in app.json
 - **Android**: `RECORD_AUDIO` permission in app.json
 
-### Supported Languages
 
-The voice service supports multiple languages:
-
-- English (US/UK)
-- Hindi (India) 
-- Spanish, French, German
-- Portuguese, Italian
-- Japanese, Korean, Chinese
-
-### Voice Features
 
 - **Real-time Recognition**: Live speech-to-text conversion
 - **Smart Error Handling**: Graceful fallback for network/permission issues
@@ -136,14 +112,7 @@ npm start
 
 Use Expo Go app to scan QR code, or run on simulator.
 
-## Detailed Setup Instructions
 
-## Testing Voice Commands
-
-Try these voice commands:
-- "Show me breakfast items under 200"
-- "Order 2 packs of dosa batter"
-- "Find chutney below 50"
 
 ## Telegram Bot (Optional)
 
